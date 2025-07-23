@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "input_documents": [
+      "test.pdf"
+    ],
+    "persona": "Business Analyst",
+    "job_to_be_done": "Market analysis",
+    "processing_timestamp": 1753185559,
+    "total_sections_analyzed": 39,
+    "processing_time_seconds": 8.17
+  },
+  "extracted_sections": [
+    {
+      "document": "test.pdf",
+      "page_number": 5,
+      "section_title": "The Business Plan to be Developed ",
+      "importance_rank": 1
+    },
+    {
+      "document": "test.pdf",
+      "page_number": 8,
+      "section_title": "Phase I: Business Planning ",
+      "importance_rank": 2
+    },
+    {
+      "document": "test.pdf",
+      "page_number": 1,
+      "section_title": "Ontario’s Digital Library ",
+      "importance_rank": 3
+    },
+    {
+      "document": "test.pdf",
+      "page_number": 1,
+      "section_title": "A Critical Component for Implementing Ontario’s Road Map to Prosperity Strategy ",
+      "importance_rank": 4
+    },
+    {
+      "document": "test.pdf",
+      "page_number": 7,
+      "section_title": "Evaluation and Awarding of Contract ",
+      "importance_rank": 5
+    },
+    {
+      "document": "test.pdf",
+      "page_number": 1,
+      "section_title": "Summary ",
+      "importance_rank": 6
+    },
+    {
+      "document": "test.pdf",
+      "page_number": 2,
+      "section_title": "Background ",
+      "importance_rank": 7
+    },
+    {
+      "document": "test.pdf",
+      "page_number": 8,
+      "section_title": "Appendix A: ODL Envisioned Phases & Funding ",
+      "importance_rank": 8
+    },
+    {
+      "document": "test.pdf",
+      "page_number": 1,
+      "section_title": "Timeline: ",
+      "importance_rank": 9
+    },
+    {
+      "document": "test.pdf",
+      "page_number": 4,
+      "section_title": "Local points of entry: ",
+      "importance_rank": 10
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "test.pdf",
+      "page_number": 5,
+      "refined_text": "Local points of entry: We will provide the licenses, infrastructure, services and support that enable local libraries to provide exceptional services to their clientele. ODL will focus on support, providing the underpinning, not overshadowing. Servic",
+      "importance_rank": 7
+    },
+    {
+      "document": "test.pdf",
+      "page_number": 8,
+      "refined_text": "Evaluation and Awarding of Contract The contract will be awarded to the bidder whose submission offers the best value; the contract will not necessarily be awarded to the lowest bidder. We reserve the right not to award the contract to any of the bid",
+      "importance_rank": 7
+    }
+  ]
+}
