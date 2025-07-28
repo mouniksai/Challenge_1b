@@ -102,12 +102,12 @@ project-root/
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/adithya-menon-r/Link-Us.git && cd Link-Us
+git clone https://github.com/mouniksai/Challenge_1b/ && cd Challenge_1b
 
 # 2. Download model (manual)
-mkdir -p model && \
-curl -L -o model/gemma-3-1b-it-q5_k_m.gguf \
-  https://huggingface.co/Triangle104/gemma-3-1b-it-Q5_K_M-GGUF/resolve/main/gemma-3-1b-it-q5_k_m.gguf
+mkdir models && \
+curl -L -o models/gemma-3-1b-it-UD-Q5_K_XL.gguf \
+  https://huggingface.co/unsloth/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-UD-Q5_K_XL.gguf
 
 # 3. Build container
 docker build --platform linux/amd64 -t persona-intel:latest .
