@@ -324,7 +324,7 @@ def main():
     analyzer = DocumentAnalyzer()
     
     # Configuration
-    input_config_file = "1binput.json"
+    input_config_file = "input/1binput.json"
     pdfs_folder = "PDFs"
     output_dir = "output"
     
