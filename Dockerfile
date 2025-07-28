@@ -1,5 +1,5 @@
 # Multi-stage build for optimized CPU-only document analysis
-FROM python:3.11-slim as builder
+FROM python:3.11-slim AS builder
 
 # Install build dependencies
 RUN apt-get update && apt-get install -y \
@@ -41,7 +41,7 @@ RUN chown -R app:app /home/app/.local
 
 # Copy application files
 COPY --chown=app:app main.py .
-COPY --chown=app:app 1binput.json .
+COPY --chown=app:app input/1binput.json .
 
 # Copy PDFs directory (if exists)
 COPY --chown=app:app PDFs/ ./PDFs/
