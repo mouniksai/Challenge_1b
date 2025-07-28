@@ -87,7 +87,7 @@ project-root/
 ├── input/
 │   └── 1binput.json
 ├── model/
-│   └── gemma-3-1b-it-q5_k_m.gguf     # Manually downloaded
+│   └── gemma-3-1b-it-UD-Q5_K_XL.gguf     # Manually downloaded
 ├── src/
 │   └── main.py                       # Entry‑point & pipeline
 ├── assets/
