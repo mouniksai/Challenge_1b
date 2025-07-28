@@ -10,7 +10,8 @@
 **Team**: `dot` | **Challenge**: `Persona‑Based Section Extraction` | **Repo**: [Challenge_1b](https://github.com/mouniksai/Challenge_1b)
 
 ---
-To view detailed setup and execution instructions, please refer to the [🛠 Setup Instructions](#️-quick-start)
+- To view detailed setup and execution instructions, please refer to the [🛠 Setup Instructions](#️-quick-start)
+- See [approach_explanation.md](approach_explanation.md) for details on our implementation strategy.
 ---
 ## 🏆 Solution Highlights
 
@@ -43,7 +44,6 @@ To view detailed setup and execution instructions, please refer to the [🛠 S
 - **TOC‑Driven**: Splits by headings when Table of Contents exists  
 - **Heuristic Fallback**: Page‑wise chunking + title heuristics when no TOC  
 - **Content Cleaning**: Normalization and length‑limiting for prompt safety
-
 ---
 
 ## ⚙️ System Architecture & Pipeline
@@ -86,14 +86,14 @@ project-root/
 ├── requirements.txt
 ├── 1binput.json
 ├── model/
-│   └── gemma-3-1b-it-q5\_k\_m.gguf     # Manually downloaded
+│   └── gemma-3-1b-it-q5_k_m.gguf     # Manually downloaded
 ├── src/
 │   └── main.py                       # Entry‑point & pipeline
 ├── assets/
-│   └── architecture\_1b.png           # Architecture diagram
+│   └── architecture_1b.png           # Architecture diagram
 ├── PDFs/                             # Input PDFs
 ├── output/                           # analysis\_output.json
-└── approach\_explanation.md           # Detailed methodology
+└── approach_explanation.md           # Detailed methodology
 ```
 
 ---
@@ -139,13 +139,22 @@ docker run --rm \
 
 Team dot — Adobe India Hackathon 2025
 
-* 👤 [Vivek Chitturi](https://)
-* 👤 [Aashiq Edavalapati]()
-* 👤 [Mounik Sai]()
+* 👤 [Vivek Chitturi](https://github.com/thecodingvivek)
+* 👤 [Aashiq Edavalapati](https://github.com/Aashiq-Edavalapati)
+* 👤 [Mounik Sai](https://github.com/mouniksai)
 ---
 
+## 🔒 Compliance Notice
+
+We use the [Gemma-3-1b-it](https://huggingface.co/Triangle104/gemma-3-1b-it-Q5_K_M-GGUF) model for inference, which complies with [Google's Gemma terms of use](https://ai.google.dev/gemma). The model is run entirely offline, without network access.
+
+---
+
+
 ## 📜 License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
 *Crafted for Adobe India Hackathon 2025 – “Connecting the Dots” Challenge 1B*
 
