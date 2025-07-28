@@ -84,7 +84,8 @@ project-root/
 ├── Dockerfile
 ├── LICENSE
 ├── requirements.txt
-├── 1binput.json
+├── input/
+│   └── 1binput.json
 ├── model/
 │   └── gemma-3-1b-it-q5_k_m.gguf     # Manually downloaded
 ├── src/
